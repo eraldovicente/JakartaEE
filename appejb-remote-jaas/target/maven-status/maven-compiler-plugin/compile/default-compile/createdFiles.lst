@@ -1,0 +1,3 @@
+org\aguzman\webapp\ejb\service\ServiceEjbRemota.class
+org\aguzman\webapp\ejb\models\Producto.class
+org\aguzman\webapp\ejb\service\ServiceEjb.class

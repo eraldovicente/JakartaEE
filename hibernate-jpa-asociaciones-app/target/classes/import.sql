@@ -1,0 +1,16 @@
+INSERT INTO clientes (id, nombre, apellido, forma_pago, creado_en, editado_en) VALUES (1,'Eraldo','Vicente','debito',NULL,NULL),(2,'John','Doe','credito',NULL,NULL),(3,'Pepe','Roe','paypal',NULL,NULL),(4,'Pepa','Doe','debito',NULL,NULL),(8,'John','Roe','paypal',NULL,NULL),(9,'Babi','Ellen','credito','2024-05-07 10:44:12','2024-05-07 11:22:06');
+INSERT INTO alumnos (id, nombre, apellido) VALUES (1, 'Johana', 'Doe');
+INSERT INTO alumnos (id, nombre, apellido) VALUES (2, 'Pepe', 'Gon');
+INSERT INTO cursos (id, titulo, profesor) VALUES (1, 'Curso Java', 'Andres');
+INSERT INTO cursos (id, titulo, profesor) VALUES (2, 'Curso Hibernate y JPA', 'Andres');
+Insert INTO direcciones (calle, numero) VALUES ('colon', 456);
+INSERT INTO direcciones (calle, numero) VALUES ('vaticano', 123);
+INSERT INTO tbl_clientes_direcciones (id_cliente, id_direccion) VALUES (1, 1);
+INSERT INTO tbl_clientes_direcciones (id_cliente, id_direccion) VALUES (1, 2);
+INSERT INTO clientes_detalles (prime, puntos_acumulados, cliente_detalle_id) VALUES (1, 800, 1);
+INSERT INTO tbl_alumnos_cursos (alumno_id, curso_id) VALUES (1, 1);
+INSERT INTO tbl_alumnos_cursos (alumno_id, curso_id) VALUES (1, 2);
+INSERT INTO facturas (descripcion, total, id_cliente) VALUES ('oficina', 4000, 1);
+INSERT INTO facturas (descripcion, total, id_cliente) VALUES ('casa', 2000, 1);
+INSERT INTO facturas (descripcion, total, id_cliente) VALUES ('deporte', 2000, 1);
+INSERT INTO facturas (descripcion, total, id_cliente) VALUES ('computacion', 7000, 2);
